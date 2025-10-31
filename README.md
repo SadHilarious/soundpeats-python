@@ -4,6 +4,8 @@
 - **Created by**: Perplexity (Claude Sonnet 4.5 reasoning)
 
 ***
+## How to use this vibe coded shit
+run menu.py 
 
 ## 📋 Basic Specifications
 
