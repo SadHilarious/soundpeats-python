@@ -20,7 +20,10 @@ $ python menu.py
 ```
 ***
 ### Todo list
-- IDK
+- Add disable touch mode
+- Implement AutoHotkey for convenience (Tray icon)
+- Improve speed for script
+- Learn python and stop vibe code (I too lazy)
 
 ## 🔌 Addresses & Important UUIDs (for debug)
 
