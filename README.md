@@ -4,45 +4,25 @@
 - **Created by**: Perplexity (Claude Sonnet 4.5 reasoning)
 
 ***
-## How to use this vibe coded shit
-run menu.py 
+## Main function
+- Switch between 3 modes (Anc, Normal, Passthrough)
+- Enable/Disable gamemode
+- Check battery (not exactly)
 
-## 📋 Basic Specifications
-
-| Specification | Details |
-|---|---|
-| **Model** | SoundPEATS Capsule3 Pro+ |
-| **Chipset** | WQ7034AX |
-| **Firmware** | SPTS04PRO_20241009_V15 |
-| **Driver** | xMEMS Speaker + 12mm Bio-diaphragm Dynamic Driver (Hybrid) |
-| **Bluetooth** | 5.3 (A2DP/AVRCP/HFP/HSP) |
-| **Codec** | LDAC (Hi-Res), AAC, SBC |
-| **Frequency Response** | 20Hz - 40kHz (Hi-Res Audio Certified) |
-| **Sensitivity** | 102 dB |
-| **ANC** | AI Adaptive, up to 45dB (1.8kHz bandwidth) |
-| **Microphones** | 6 (3 per earbud - ENC & AptX Voice) |
-| **Latency** | 70ms (Game Mode) |
-| **Waterproof** | IPX4 (Sweat & Water Resistant) |
-| **Touch Controls** | Yes, customizable via app |
-| **Multi-point Pairing** | Yes (2 devices simultaneously) |
-
+## How to use this
+- Install dependency.
+```
+$ pip install -r requirements.txt
+```
+- Run this vibe coded shit
+```
+$ python menu.py
+```
 ***
+### Todo list
+- IDK
 
-## 🔋 Battery & Charging Information
-
-| Specification | Details |
-|---|---|
-| **Earbud Capacity** | 35mAh × 2 |
-| **Case Capacity** | 500mAh |
-| **Charging Time** | < 1.5 hours (earbuds & case) |
-| **Playtime** | 6.5 hours (Normal Mode) |
-| **Playtime with ANC** | Up to 8 hours |
-| **Total Playtime** | 43 hours (with case) |
-| **Charging Port** | USB Type-C |
-
-***
-
-## 🔌 Addresses & Important UUIDs
+## 🔌 Addresses & Important UUIDs (for debug)
 
 ### Device Info
 ```
@@ -110,6 +90,40 @@ Byte[2]: 0x0C/0x09  - Category (0x0C=ANC, 0x09=Game)
 Byte[3]: 0x01   - Subcommand/Parameter
 Byte[4]: VALUE  - Mode value (0x63=ANC ON, 0xA5=Passthrough, 0x02=Normal/OFF, 0x01=Enable, 0x02=Disable)
 ```
+
+
+## 📋 Basic Specifications
+
+| Specification | Details |
+|---|---|
+| **Model** | SoundPEATS Capsule3 Pro+ |
+| **Chipset** | WQ7034AX |
+| **Firmware** | SPTS04PRO_20241009_V15 |
+| **Driver** | xMEMS Speaker + 12mm Bio-diaphragm Dynamic Driver (Hybrid) |
+| **Bluetooth** | 5.3 (A2DP/AVRCP/HFP/HSP) |
+| **Codec** | LDAC (Hi-Res), AAC, SBC |
+| **Frequency Response** | 20Hz - 40kHz (Hi-Res Audio Certified) |
+| **Sensitivity** | 102 dB |
+| **ANC** | AI Adaptive, up to 45dB (1.8kHz bandwidth) |
+| **Microphones** | 6 (3 per earbud - ENC & AptX Voice) |
+| **Latency** | 70ms (Game Mode) |
+| **Waterproof** | IPX4 (Sweat & Water Resistant) |
+| **Touch Controls** | Yes, customizable via app |
+| **Multi-point Pairing** | Yes (2 devices simultaneously) |
+
+***
+
+## 🔋 Battery & Charging Information
+
+| Specification | Details |
+|---|---|
+| **Earbud Capacity** | 35mAh × 2 |
+| **Case Capacity** | 500mAh |
+| **Charging Time** | < 1.5 hours (earbuds & case) |
+| **Playtime** | 6.5 hours (Normal Mode) |
+| **Playtime with ANC** | Up to 8 hours |
+| **Total Playtime** | 43 hours (with case) |
+| **Charging Port** | USB Type-C |
 
 ***
 
