@@ -112,30 +112,3 @@ Byte[4]: VALUE  - Mode value (0x63=ANC ON, 0xA5=Passthrough, 0x02=Normal/OFF, 0x
 | **Multi-point Pairing** | Yes (2 devices simultaneously) |
 
 ***
-
-## 🔋 Battery & Charging Information
-
-| Specification | Details |
-|---|---|
-| **Earbud Capacity** | 35mAh × 2 |
-| **Case Capacity** | 500mAh |
-| **Charging Time** | < 1.5 hours (earbuds & case) |
-| **Playtime** | 6.5 hours (Normal Mode) |
-| **Playtime with ANC** | Up to 8 hours |
-| **Total Playtime** | 43 hours (with case) |
-| **Charging Port** | USB Type-C |
-
-***
-
-## 📱 Interface & Control
-
-### Touch Gestures
-| Action | Result |
-|---|---|
-| **1x Tap (Left)** | Previous track |
-| **1x Tap (Right)** | Next track |
-| **2x Tap (Left/Right)** | Play/Pause |
-| **3x Tap (Left/Right)** | Switch ANC Mode |
-| **Long Press (Right)** | Voice Assistant |
-| **Swipe Up** | Volume up |
-| **Swipe Down** | Volume down |
