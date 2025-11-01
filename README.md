@@ -70,20 +70,15 @@ Main Service UUID:  0000a001-0000-1000-8000-00805f9b34fb
 
 ## 🎚️ ANC & Mode Control Patterns
 
-### ANC Modes (Category: 0x0C)
-
 | Mode | Command (Hex) | Bytes | Meaning |
 |---|---|---|---|
-| **ANC ON** | `ff 03 0c 01 63` | `[0xFF, 0x03, 0x0C, 0x01, 0x63]` | Noise cancellation mode |
-| **Passthrough** | `ff 03 0c 01 a5` | `[0xFF, 0x03, 0x0C, 0x01, 0xA5]` | Ambient sound pass-through |
-| **Normal (Off)** | `ff 03 0c 01 02` | `[0xFF, 0x03, 0x0C, 0x01, 0x02]` | ANC disabled |
-
-### Game Mode (Category: 0x09)
-
-| Mode | Command (Hex) | Bytes | Meaning |
-|---|---|---|---|
-| **Game ON** | `ff 03 09 01 01` | `[0xFF, 0x03, 0x09, 0x01, 0x01]` | Game mode enabled (70ms latency) |
-| **Game OFF** | `ff 03 09 01 02` | `[0xFF, 0x03, 0x09, 0x01, 0x02]` | Game mode disabled |
+| **ANC Mode** | FF 03 0C 01 63 | `[0xFF, 0x03, 0x0C, 0x01, 0x63]` | ANC mode enabled |
+| **Passthrough** | FF 03 0C 01 A5 | `[0xFF, 0x03, 0x0C, 0x01, 0xA5]` | Passthrough mode (Ambient sound) |
+| **Normal Mode** | FF 03 0C 01 02 | `[0xFF, 0x03, 0x0C, 0x01, 0x02]` | Normal mode (ANC off) |
+| **Game Mode ON** | FF 03 09 01 01 | `[0xFF, 0x03, 0x09, 0x01, 0x01]` | Game mode enabled (70ms latency) |
+| **Game Mode OFF** | FF 03 09 01 02 | `[0xFF, 0x03, 0x09, 0x01, 0x02]` | Game mode disabled |
+| **Disable Button** | FF 03 10 01 01 | `[0xFF, 0x03, 0x10, 0x01, 0x01]` | Button touch disabled |
+| **Enable Button** | FF 03 10 01 02 | `[0xFF, 0x03, 0x10, 0x01, 0x02]` | Button touch enabled |
 
 ### Command Structure
 ```
