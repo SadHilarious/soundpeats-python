@@ -1,4 +1,4 @@
-# 🎧 SoundPEATS Capsule3 Pro+ - Technical Information Summary
+# Control SoundPEATS earbudr (only capsule 3 pro+) with easy menu!
 
 ## ENTIRE REPOSITORY CREATED BY AI
 - **Created by**: Perplexity (Claude Sonnet 4.5 reasoning)
@@ -20,9 +20,9 @@ $ python menu.py
 ```
 ***
 ### Todo list
-- Add disable touch mode
+- Add enable/disable touch mode **DONE**
 - Implement AutoHotkey for convenience (Tray icon)
-- Improve speed for script
+- Improve speed for script 
 - Learn python and stop vibe code (I too lazy)
 
 ## 🔌 Addresses & Important UUIDs (for debug)
